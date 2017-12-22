@@ -1,4 +1,3 @@
-def current_age_for_birth_year(year)
-  a = time.now()
-  return a.year - year;
+def current_age_for_birth_year(birthYear)
+  return Time.now.year - birthYear;
 end
